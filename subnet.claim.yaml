@@ -1,0 +1,8 @@
+apiVersion: eks.example.org/v1alpha1
+kind: CompositeSubnet
+metadata:
+  name: my-subnet-claim
+spec:
+  parameters:
+    cidrBlock: "10.0.1.0/24"
+    region: us-west-2
